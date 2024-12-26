@@ -4,7 +4,7 @@ import java.io.*;
 import java.lang.reflect.Field;
 
 public class Main {
-    private final static String pathToFile = "./src./main./java./HW3./file";
+    private final static String pathToFile = "./src/main/java/HW3/file";
 
     public static void main(String[] args) throws IOException, ClassNotFoundException, IllegalAccessException {
         Student student = new Student("Alex", 14, 4.0);
